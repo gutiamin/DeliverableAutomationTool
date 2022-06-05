@@ -1,0 +1,4 @@
+$setTable #path BAC-10-Catalogo_de_conceptos.xlsx #sheet BAC-10 #colRange A:B #rowRange 5:13 as conceptos
+$setTable #path BAC-11-Catalogo_de_atributos_y_relaciones.xlsx #sheet BAC-11 #colRange A:C #rowRange 5:35 as atributos
+$createChapter #text <Información de organizaciones>
+$insertArtifact #key Clase <#path BAC-10-Catalogo_de_conceptos.xlsx #sheet BAC-10 #colRange A:B #rowRange 5:13> <#path2 BAC-11-Catalogo_de_atributos_y_relaciones.xlsx #sheet2 BAC-11 #colRange2 A:C #rowRange2 5:35>
